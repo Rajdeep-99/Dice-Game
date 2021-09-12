@@ -18,3 +18,9 @@ else if(randomNumber1<randomNumber2)
     document.querySelector("h1").innerHTML="Player 2 WINS🚩";
 else
     document.querySelector("h1").innerHTML="🚩DRAW🚩";
+
+//Blinking Effect to h2 Tag
+var blink = document.querySelector("h2");
+setInterval(function() {
+    blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+}, 500);

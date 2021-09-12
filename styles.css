@@ -32,8 +32,8 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
+h2,footer {
+  margin-top: 2%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
